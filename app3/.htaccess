@@ -1,0 +1,17 @@
+#Cargar el archivo principal es principal.
+
+#DirectoryIndex principal.html
+
+
+
+#quitar el listado de los directorios
+#IndexIgnore*
+
+
+# Make PHP code look like unknown types
+#AddType application/x-httpd-php .IngWeb
+
+#Bloqueo de Ip local
+Order allow, deny
+Deny from 192.168.0.105
+Allow from all
